@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/goit-react-textbook-lesson-11-example-app/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-textbook-lesson-11-example-app/static/js/main.07d3183d.js",
+    "main.css": "/goit-react-textbook-lesson-11-example-app/static/css/main.28348e4d.css",
+    "main.js": "/goit-react-textbook-lesson-11-example-app/static/js/main.8fa37cbc.js",
     "index.html": "/goit-react-textbook-lesson-11-example-app/index.html",
-    "main.7acaea2f.css.map": "/goit-react-textbook-lesson-11-example-app/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/goit-react-textbook-lesson-11-example-app/static/js/main.07d3183d.js.map"
+    "main.28348e4d.css.map": "/goit-react-textbook-lesson-11-example-app/static/css/main.28348e4d.css.map",
+    "main.8fa37cbc.js.map": "/goit-react-textbook-lesson-11-example-app/static/js/main.8fa37cbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.28348e4d.css",
+    "static/js/main.8fa37cbc.js"
   ]
 }
