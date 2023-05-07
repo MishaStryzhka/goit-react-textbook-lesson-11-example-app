@@ -1,23 +1,10 @@
-// import { Task } from "components/Task/Task";
 import css from "./TaskList.module.css";
 
-// export const TaskList = () => {
-//     return (
-//         <ul className={css.list}>
-//             {[].map(task => (
-//                 <li className={css.listItem} key={task.id}>
-//                     <Task task={task} />
-//                 </li>
-//             ))}
-//         </ul>
-//     );
-// };
-
-// Імпортуємо хук
 import { useSelector } from "react-redux";
 import { Task } from "components/Task/Task";
-// Імпортуємо об'єкт значень фільтра
+
 import { statusFilters } from "../../redux/constants";
+
 const getVisibleTasks = (tasks, statusFilter) => {
     switch (statusFilter) {
         case statusFilters.active:
@@ -28,13 +15,13 @@ const getVisibleTasks = (tasks, statusFilter) => {
             return tasks;
     }
 };
+
 export const TaskList = () => {
-    // Отримуємо масив завдань із стану Redux
+
     const tasks = useSelector(state => state.tasks);
-    // Отримуємо значення фільтра із стану Redux
     const statusFilter = useSelector(state => state.filters.status);
-    // Обчислюємо масив завдань, які необхідно відображати в інтерфейсі
     const visibleTasks = getVisibleTasks(tasks, statusFilter);
+
     return (
         <ul className={css.list}>
             {visibleTasks.map(task => (
